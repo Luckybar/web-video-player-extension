@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "單手影片控制器 One-Hand Video Controller",
+  "version": "1.0.0",
+  "description": "在手機上單手更容易控制網頁影片:播放/暫停、快轉倒退、播放速度、音量、螢幕變暗。點工具列圖示叫出/收起控制列。",
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "單手影片控制器 (點一下叫出/收起控制列)",
+    "default_icon": {
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
