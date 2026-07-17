@@ -1,0 +1,1 @@
+javascript:(function(){var d=document,s=d.createElement('script');s.src='https://cdn.jsdelivr.net/gh/Luckybar/web-video-player-extension@main/src/controller.js';s.onload=function(){s.remove();};(d.body||d.documentElement).appendChild(s);})();
