@@ -85,7 +85,7 @@ background:rgba(16,18,24,.85);display:flex;align-items:center;padding:0 10px;gap
       <li><code>⋮</code> → <b>書籤</b> → 找到它 → <b>編輯</b> → 把「網址」清空貼上,名稱改「單手控制」,存檔。</li>
       <li>影片頁在網址列輸入「單手控制」點它 → 控制介面出現。再點一次收起。</li>
     </ol>
-    <textarea id="loader" class="copybox" readonly>javascript:(function(){var d=document,s=d.createElement('script');s.src='https://cdn.jsdelivr.net/gh/Luckybar/web-video-player-extension@main/src/controller.js';s.onload=function(){s.remove();};(d.body||d.documentElement).appendChild(s);})();</textarea>
+    <textarea id="loader" class="copybox" readonly>javascript:(function(){var d=document,s=d.createElement('script');s.src='https://cdn.jsdelivr.net/gh/Luckybar/web-video-player-extension@main/src/controller.js?t='+Date.now();s.onload=function(){s.remove();};(d.body||d.documentElement).appendChild(s);})();</textarea>
     <p class="tip">⚠️ 推上 GitHub 後,jsDelivr 對 <code>@main</code> 快取最長約 12 小時。想馬上更新可開一次:<br>
     <code>https://purge.jsdelivr.net/gh/Luckybar/web-video-player-extension@main/src/controller.js</code></p>
   </div>
