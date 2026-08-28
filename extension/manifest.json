@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "單手影片控制器 One-Hand Video Controller",
-  "version": "2.0.0",
-  "description": "單手控制網頁影片:左右兩大觸控區,長按加速/減速(放開回原速),點一下快轉/倒退 30 秒。點工具列圖示開關。",
+  "version": "3.0.0",
+  "description": "單手控制網頁影片:左右兩大觸控區,長按加速/減速(放開回原速)、點擊快轉/倒退30秒、可拖曳進度條。點工具列圖示開關。",
   "icons": {
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
